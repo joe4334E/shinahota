@@ -14,6 +14,7 @@ const Homelayout = () => {
         <div className="relative overflow-hidden bg-blue-900">
           <video className="w-full h-auto" autoPlay loop muted>
             <source src="https://via.placeholder.com/1280x720" type="video/mp4" />
+            <source src="https://via.placeholder.com/1280x720" type="video/mp4" />
             Tu navegador no soporta el formato de video.
           </video>
           <div className="absolute inset-0 flex flex-col items-center justify-center p-4 text-center text-white bg-black bg-opacity-50">
