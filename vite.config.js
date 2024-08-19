@@ -16,8 +16,8 @@ export default defineConfig({
       },
 
       manifest: {
-        name: "shinahota.github.io",
-        short_name: "shinahota.github.io",
+        name: "Gobierno Autonomo Municipal de Shinahota",
+        short_name: "Shinahota",
         description: "Alcaldia de Shinahota",
         theme_color: "#ffffff",
       },
