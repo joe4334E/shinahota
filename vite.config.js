@@ -37,5 +37,4 @@ export default defineConfig({
       },
     }),
   ],
-  base: "/SHINAHOTA.github.io", // YOUR REPO NAME HERE
 });

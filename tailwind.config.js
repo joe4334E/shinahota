@@ -6,7 +6,11 @@ export default {
     "node_modules/flowbite/lib/esm/**/*.js",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ["Roboto", "sans-serif"],
+      },
+    },
   },
   plugins: [require("flowbite/plugin")],
 };
