@@ -11,16 +11,17 @@ const GobMunLayout = () => {
   return (
     <section className="relative overflow-hidden">
       {/* Background Image and Title */}
-      <div className="relative flex items-center justify-center text-white hero-bg h-80">
+
+      {/*<div className="relative flex items-center justify-center text-white hero-bg h-80">
         <div className="absolute inset-0 bg-gradient-to-t from-gray-800 via-transparent to-transparent"></div>
         <h1 className="relative z-10 text-4xl font-bold drop-shadow-lg">Gobierno Municipal</h1>
       </div>
-
+*/}
       <div className="container p-6 mx-auto">
         {/* Quiénes Somos */}
         <div className="p-6 mb-6 bg-white rounded-lg shadow-lg fade-in hover-shadow">
           <div className="flex flex-col items-center md:flex-row">
-            <img src="https://via.placeholder.com/600x400" alt="Gobierno Municipal" className="object-cover w-full mb-4 rounded-lg md:w-1/2 h-60 md:mb-0 md:mr-4" />
+            <img src="https://pbs.twimg.com/media/E4mkuv0WYAcXBy5?format=jpg&name=small" alt="Gobierno Municipal" className="object-cover w-full mb-4 rounded-lg md:w-1/2 h-60 md:mb-0 md:mr-4" />
             <div className="md:w-1/2">
               <h2 className="mb-4 text-2xl font-semibold">Quiénes Somos</h2>
               <p className="mb-4 text-gray-700">
@@ -45,11 +46,11 @@ const GobMunLayout = () => {
             {/* Tarjeta del Alcalde */}
             <div className="max-w-md p-6 mx-auto bg-white rounded-lg shadow-lg hover-shadow">
               <div className="flex flex-col items-center text-center">
-                <img src="https://via.placeholder.com/200" alt="Alcalde" className="object-cover w-40 h-40 mb-4 rounded-full" />
+                <img src="https://scontent.fcbb3-1.fna.fbcdn.net/v/t39.30808-6/241628422_5377049675644669_5794587565535288292_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=_JJfWkb7ljYQ7kNvgGpTn34&_nc_ht=scontent.fcbb3-1.fna&oh=00_AYAgtbxsSJGYVdV1ls75kjDFXSRn1MCj_mgCfKcxmUlvJA&oe=66CA10A3" alt="Alcalde" className="object-cover w-40 h-40 mb-4 rounded-full" />
                 <h2 className="mb-2 text-3xl font-semibold">Juan Pérez</h2>
                 <p className="mb-4 text-xl text-gray-700">Alcalde</p>
                 <p className="mb-4 text-gray-600">
-                  Juan Pérez es el actual Alcalde de nuestra ciudad, con una amplia experiencia en la gestión pública y el desarrollo comunitario. 
+                  Luis Arce Clemente  es el actual Alcalde de nuestra ciudad, con una amplia experiencia en la gestión pública y el desarrollo comunitario. 
                   Licenciado en Administración Pública y con un máster en Desarrollo Urbano, Juan ha dedicado su carrera a mejorar la calidad de vida en la ciudad a través de políticas inclusivas y sostenibles.
                 </p>
                 <p className="mb-4 text-gray-600">
@@ -62,12 +63,12 @@ const GobMunLayout = () => {
         </section>
 
         {/* Organigrama */}
-        <div className="p-6 mb-6 bg-white rounded-lg shadow-lg fade-in hover-shadow">
+
+        {/*<div className="p-6 mb-6 bg-white rounded-lg shadow-lg fade-in hover-shadow">
           <h2 className="mb-4 text-2xl font-semibold">Organigrama</h2>
           <img src="https://via.placeholder.com/1200x800" alt="Organigrama" className="w-full h-auto rounded-lg" />
-          {/* Reemplaza el src con la URL del organigrama real */}
         </div>
-
+*/}
         {/* Autoridades */}
         <div className="p-6 mb-6 bg-white rounded-lg shadow-lg fade-in hover-shadow">
           <h2 className="mb-4 text-2xl font-semibold">Autoridades</h2>

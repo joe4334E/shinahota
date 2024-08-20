@@ -13,8 +13,7 @@ const Homelayout = () => {
       <section className="relative">
         <div className="relative overflow-hidden bg-blue-900">
           <video className="w-full h-auto" autoPlay loop muted>
-            <source src="https://via.placeholder.com/1280x720" type="video/mp4" />
-            <source src="https://via.placeholder.com/1280x720" type="video/mp4" />
+            <source src="https://via.placeholder.com/1280x72a0" type="video/mp4" />
             Tu navegador no soporta el formato de video.
           </video>
           <div className="absolute inset-0 flex flex-col items-center justify-center p-4 text-center text-white bg-black bg-opacity-50">
@@ -52,13 +51,13 @@ const Homelayout = () => {
           <div className="relative overflow-hidden">
             <div className="flex overflow-x-auto">
               <div className="flex-none w-full md:w-1/3">
-                <img src="https://via.placeholder.com/1600x600" alt="Imagen 1" className="object-cover w-full h-auto" />
+                <img src="https://anteriorportal.erbol.com.bo/sites/default/files/img_noticias/centro_de_salud.jpg" alt="Imagen 1" className="object-cover w-full h-auto" />
               </div>
               <div className="flex-none w-full md:w-1/3">
-                <img src="https://via.placeholder.com/1600x600" alt="Imagen 2" className="object-cover w-full h-auto" />
+                <img src="http://www.amdeco.org.bo/enlacemunicipios/allMunicipios/data1/images/shinaota3.jpg" alt="Imagen 2" className="object-cover w-full h-auto" />
               </div>
               <div className="flex-none w-full md:w-1/3">
-                <img src="https://via.placeholder.com/1600x600" alt="Imagen 3" className="object-cover w-full h-auto" />
+                <img src="" alt="Imagen 3" className="object-cover w-full h-auto" />
               </div>
             </div>
           </div>
@@ -68,7 +67,7 @@ const Homelayout = () => {
         <section className="p-4 rounded-lg shadow-lg bg-green-50 md:p-8">
           <h2 className="mb-4 text-3xl font-semibold text-green-700">Sobre Shinahota</h2>
           <div className="flex flex-col items-center md:flex-row gap-6">
-            <img src="https://via.placeholder.com/400x300" alt="Shinahota" className="w-full rounded-lg shadow-lg md:w-1/2" />
+            <img src="https://lh5.googleusercontent.com/p/AF1QipOnUM2Caf9PlbJ4jUvqVye9KTu4MRFWM8qKck-J=w408-h306-k-no" alt="Shinahota" className="w-full rounded-lg shadow-lg md:w-1/2" />
             <div className="text-gray-700 md:w-1/2">
               <p className="mb-4">
                 Shinahota es la Segunda Sección Municipal de la Provincia Tiraque, perteneciente a la Región del Trópico Cochabambino. Fundada el 4 de julio de 2009, es el municipio más joven del departamento de Cochabamba. Reconocido como la cuna de la revolución cocalera y sede principal de la Coordinadora de las 6 Federaciones del Trópico.

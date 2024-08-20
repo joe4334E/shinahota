@@ -17,7 +17,7 @@ const Turismo = () => {
           {/* About Us */}
           <section className="flex mb-12 bg-white rounded-lg shadow-lg">
             <img 
-              src="https://via.placeholder.com/500x500?text=Shinahota+Turismo" 
+              src="https://lh5.googleusercontent.com/p/AF1QipOS1JEOPhgJ6XAPW1LmF0TPJmE-SPiWxVdiah45=w540-h312-n-k-no" 
               alt="Turismo en Shinahota" 
               className="object-cover w-1/3 h-auto" 
             />
@@ -39,7 +39,7 @@ const Turismo = () => {
               {/* Festividad de la Virgen de Urkupiña */}
               <div className="overflow-hidden bg-white rounded-lg shadow-lg">
                 <img 
-                  src="https://via.placeholder.com/400x300" 
+                  src="https://unibolquechua.edu.bo/wp-content/uploads/2022/08/2-2.jpg" 
                   alt="Festividad de la Virgen de Urkupiña" 
                   className="object-cover w-full h-48" 
                 />
@@ -62,7 +62,7 @@ const Turismo = () => {
               {/* Carnaval */}
               <div className="overflow-hidden bg-white rounded-lg shadow-lg">
                 <img 
-                  src="https://via.placeholder.com/400x300" 
+                  src="https://scontent.fcbb3-1.fna.fbcdn.net/v/t39.30808-6/420299443_756660053163102_657162470782285910_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=127cfc&_nc_ohc=pVrtZCLGY6kQ7kNvgFllFQo&_nc_ht=scontent.fcbb3-1.fna&oh=00_AYCHC9Uho6F6AIG_PfqGXVhAanjcXyMypo0dqTg5xNKejQ&oe=66C9E639" 
                   alt="Carnaval" 
                   className="object-cover w-full h-48" 
                 />
@@ -82,7 +82,7 @@ const Turismo = () => {
                 </div>
               </div>
 
-              {/* Fiestas Patronales de las Comunidades */}
+              {/* Fiestas Patronales de las Comunidades 
               <div className="overflow-hidden bg-white rounded-lg shadow-lg">
                 <img 
                   src="https://via.placeholder.com/400x300" 
@@ -96,11 +96,11 @@ const Turismo = () => {
                   </p>
                 </div>
               </div>
-
+              */}
               {/* Festivales Culturales */}
               <div className="overflow-hidden bg-white rounded-lg shadow-lg">
                 <img 
-                  src="https://via.placeholder.com/400x300" 
+                  src="https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2022/2/27/18_me_1_jamessss.jpg?itok=NS3nDlFW" 
                   alt="Festivales Culturales" 
                   className="object-cover w-full h-48" 
                 />
@@ -115,7 +115,7 @@ const Turismo = () => {
               {/* Actividades Deportivas */}
               <div className="overflow-hidden bg-white rounded-lg shadow-lg">
                 <img 
-                  src="https://via.placeholder.com/400x300" 
+                  src="https://www.lostiempos.com/sites/default/files/styles/noticia_detalle/public/media_imagen/2023/3/31/18_dep5_los_tiempos.jpg?itok=aprGE32o" 
                   alt="Actividades Deportivas" 
                   className="object-cover w-full h-48" 
                 />
@@ -136,7 +136,7 @@ const Turismo = () => {
               {/* Cavernas del Repechón */}
               <div className="overflow-hidden bg-white rounded-lg shadow-lg">
                 <img 
-                  src="https://via.placeholder.com/400x300" 
+                  src="https://erbol.com.bo/sites/default/files/000245997W-750x375.jpg" 
                   alt="Cavernas del Repechón" 
                   className="object-cover w-full h-48" 
                 />
@@ -159,7 +159,7 @@ const Turismo = () => {
               {/* Caimán Poza */}
               <div className="overflow-hidden bg-white rounded-lg shadow-lg">
                 <img 
-                  src="https://via.placeholder.com/400x300" 
+                  src="https://scontent.fcbb3-1.fna.fbcdn.net/v/t39.30808-6/240586611_104564531949919_1559625204230494787_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=cqO1TtUvAH8Q7kNvgH3qegh&_nc_ht=scontent.fcbb3-1.fna&oh=00_AYDSvR5XmLc87uEk-ay53DOQCM0JwONNxr_sr7yK-NXN7Q&oe=66C9DC52" 
                   alt="Caimán Poza" 
                   className="object-cover w-full h-48" 
                 />
@@ -171,85 +171,17 @@ const Turismo = () => {
                 </div>
               </div>
 
-              {/* Dogo Poza */}
-              <div className="overflow-hidden bg-white rounded-lg shadow-lg">
-                <img 
-                  src="https://via.placeholder.com/400x300" 
-                  alt="Dogo Poza" 
-                  className="object-cover w-full h-48" 
-                />
-                <div className="p-6">
-                  <h3 className="mb-2 text-xl font-semibold text-green-800">Dogo Poza</h3>
-                  <p className="text-gray-700">
-                    Otra laguna de gran belleza natural, ideal para relajarse y disfrutar del paisaje.
-                  </p>
-                </div>
-              </div>
-
-              {/* Cavernas de los Guacharos */}
-              <div className="overflow-hidden bg-white rounded-lg shadow-lg">
-                <img 
-                  src="https://via.placeholder.com/400x300" 
-                  alt="Cavernas de los Guacharos" 
-                  className="object-cover w-full h-48" 
-                />
-                <div className="p-6">
-                  <h3 className="mb-2 text-xl font-semibold text-green-800">Cavernas de los Guacharos</h3>
-                  <p className="text-gray-700">
-                    Hogar de los guacharos, aves que emiten un sonido característico. Un lugar mágico.
-                  </p>
-                  <a 
-                    href="https://cuevasdelperu.org" 
-                    className="block mt-4 text-blue-500 hover:underline"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Más información
-                  </a>
-                </div>
-              </div>
-
-              {/* Cañón de Vidisu */}
-              <div className="overflow-hidden bg-white rounded-lg shadow-lg">
-                <img 
-                  src="https://via.placeholder.com/400x300" 
-                  alt="Cañón de Vidisu" 
-                  className="object-cover w-full h-48" 
-                />
-                <div className="p-6">
-                  <h3 className="mb-2 text-xl font-semibold text-green-800">Cañón de Vidisu</h3>
-                  <p className="text-gray-700">
-                    Un cañón impresionante con paredes rocosas y vegetación exuberante, ideal para caminatas.
-                  </p>
-                </div>
-              </div>
-
-              {/* Túnel del Duende y Espejo del Diablo */}
-              <div className="overflow-hidden bg-white rounded-lg shadow-lg">
-                <img 
-                  src="https://via.placeholder.com/400x300" 
-                  alt="Túnel del Duende y Espejo del Diablo" 
-                  className="object-cover w-full h-48" 
-                />
-                <div className="p-6">
-                  <h3 className="mb-2 text-xl font-semibold text-green-800">Túnel del Duende y Espejo del Diablo</h3>
-                  <p className="text-gray-700">
-                    Formaciones naturales espectaculares ubicadas en Central Majo Pampa.
-                  </p>
-                </div>
-              </div>
-
               {/* Parque Surubí */}
               <div className="overflow-hidden bg-white rounded-lg shadow-lg">
                 <img 
-                  src="https://via.placeholder.com/400x300" 
-                  alt="Parque Surubí" 
+                  src="https://scontent.fcbb3-1.fna.fbcdn.net/v/t39.30808-6/313335056_192125230012605_7516855840209422982_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=WqZtqWyUaJgQ7kNvgEkh4aP&_nc_ht=scontent.fcbb3-1.fna&oh=00_AYB7o4F4vlxb1skFw9vHacqqIgkKFifwoPfXHHA82VkvgQ&oe=66CA07F8" 
+                  alt="Complejo Turistico Panchito" 
                   className="object-cover w-full h-48" 
                 />
                 <div className="p-6">
-                  <h3 className="mb-2 text-xl font-semibold text-green-800">Parque Surubí</h3>
+                  <h3 className="mb-2 text-xl font-semibold text-green-800">Complejo Turistico Panchito</h3>
                   <p className="text-gray-700">
-                    Espacio natural para disfrutar de la flora y fauna local, realizar caminatas y degustar gastronomía típica.
+                    Espacio natural para disfrutar de la flora y fauna local, ofrece la posibilidad de hospedaje en cabañas y áreas para acampar y tambien realizar caminatas y degustar gastronomía típica.
                   </p>
                 </div>
               </div>
