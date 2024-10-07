@@ -4,7 +4,6 @@
  * @created     : jueves sep 19, 2024 11:31:33 -04
  * @description : App
  */
-import { useState } from 'react'
 //import reactLogo from './assets/react.svg'
 //import appLogo from '/favicon.svg'
 //import PWABadge from './PWABadge.jsx'
@@ -21,7 +20,6 @@ import Turismo from './pages/Alcaldia/Turismo'
 // Si PatentesMun es necesario para otro uso, asegúrate de importarlo también.
 
 const App = () => {
-  const [count, setCount] = useState(0);
 
   return (
     <BrowserRouter>

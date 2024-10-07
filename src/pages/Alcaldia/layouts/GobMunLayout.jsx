@@ -6,7 +6,7 @@
  */
 import React from 'react';
 //import './GobMunLayout.css'; // Para los estilos personalizados
-
+import alcaldeImg from '../images/alcaldia/luchito.png'
 const GobMunLayout = () => {
   return (
     <section className="relative overflow-hidden">
@@ -40,17 +40,17 @@ const GobMunLayout = () => {
           </div>
         </div>
 
-        {/* Sección del Alcalde */}
-        <section className="py-12 bg-gray-100">
+    {/* Sección del Alcalde */}
+    <section className="py-12 bg-gray-100">
           <div className="container px-6 mx-auto">
             {/* Tarjeta del Alcalde */}
             <div className="max-w-md p-6 mx-auto bg-white rounded-lg shadow-lg hover-shadow">
               <div className="flex flex-col items-center text-center">
-                <img src="https://scontent.fcbb3-1.fna.fbcdn.net/v/t39.30808-6/241628422_5377049675644669_5794587565535288292_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_ohc=_JJfWkb7ljYQ7kNvgGpTn34&_nc_ht=scontent.fcbb3-1.fna&oh=00_AYAgtbxsSJGYVdV1ls75kjDFXSRn1MCj_mgCfKcxmUlvJA&oe=66CA10A3" alt="Alcalde" className="object-cover w-40 h-40 mb-4 rounded-full" />
+                <img src={alcaldeImg} alt="Alcalde" className="object-cover w-40 h-40 mb-4 rounded-full" />
                 <h2 className="mb-2 text-3xl font-semibold">Juan Pérez</h2>
                 <p className="mb-4 text-xl text-gray-700">Alcalde</p>
                 <p className="mb-4 text-gray-600">
-                  Luis Arce Clemente  es el actual Alcalde de nuestra ciudad, con una amplia experiencia en la gestión pública y el desarrollo comunitario. 
+                  Luis Arce Clemente es el actual Alcalde de nuestra ciudad, con una amplia experiencia en la gestión pública y el desarrollo comunitario. 
                   Licenciado en Administración Pública y con un máster en Desarrollo Urbano, Juan ha dedicado su carrera a mejorar la calidad de vida en la ciudad a través de políticas inclusivas y sostenibles.
                 </p>
                 <p className="mb-4 text-gray-600">
