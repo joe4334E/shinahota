@@ -18,7 +18,6 @@ import Gob_Electronico from './pages/Alcaldia/Gob_Electronico'
 import Contact from './pages/Alcaldia/Contact'
 import NoPage from './pages/Alcaldia/NoPage' //Importa un componente para manejar rutas no encontradas 
 import Turismo from './pages/Alcaldia/Turismo' 
-import ResendotpCode from './auth/ResendotpCode'
 // Si PatentesMun es necesario para otro uso, asegúrate de importarlo también.
 
 const App = () => {
@@ -35,7 +34,6 @@ const App = () => {
         <Route path="/contactos" element={<Contact />} />
         <Route path="*" element={<NoPage />} />
         {/* Rutas protegidas en el proyecto */}
-        <Route path="signup/otp-code" element={<ResendotpCode />} />
         {/* Redirigir a un sitio externo */}
         <Route path="gobierno-municipal/turismo" element={<Turismo />} />
       </Routes>

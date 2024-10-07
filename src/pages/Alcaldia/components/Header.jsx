@@ -91,7 +91,7 @@ const Header = () => {
                       <a href="/gobierno-linea" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Gobierno Digital</a>
                     </li>
                     <li>
-                      <a href="https://frontend-opal-theta.vercel.app/" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Patentes Municipales</a>
+                      <a href="https://patentesshina.vercel.app/" className="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Patentes Municipales</a>
                     </li>
                   </ul>
                 </div>
