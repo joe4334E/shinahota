@@ -28,7 +28,7 @@ const Homelayout = () => {
           <div className="flex overflow-x-auto">
             {[
               "https://anteriorportal.erbol.com.bo/sites/default/files/img_noticias/centro_de_salud.jpg",
-              "http://www.amdeco.org.bo/enlacemunicipios/allMunicipios/data1/images/shinaota3.jpg",
+              "https://boliviaemprende.com/wp-content/uploads/2017/04/Shinahota-banco-union.jpg",
               "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb0LJ6RWg6WgaoHVVmacjzJYfmm-sLzW8I_Q&s",
             ].map((src, index) => (
               <div key={index} className="flex-none w-full md:w-1/2 lg:w-1/3 p-2">
