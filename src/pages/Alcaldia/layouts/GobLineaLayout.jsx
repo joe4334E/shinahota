@@ -5,7 +5,8 @@
  * @description : GobLineaLayout
  */
 import React from 'react';
-
+import gobmun from '../images/alcaldia/gobmun.jpg'
+import patentesmun from '../images/alcaldia/invitacion a RPC.jpg'
 const GobLineaLayout = () => {
     return (
         <div className="py-8 text-gray-800 bg-gray-100">
@@ -14,7 +15,7 @@ const GobLineaLayout = () => {
                 {/* Sección de Introducción */}
                 <section className="flex flex-col items-center p-8 mb-12 border border-blue-300 shadow-lg bg-blue-50 rounded-xl lg:flex-row-reverse">
                     <div className="mb-6 lg:w-1/2 lg:pl-8 lg:mb-0">
-                        <img src="https://via.placeholder.com/400x300" alt="Gobierno Digital" className="w-full h-auto rounded-lg shadow-md" />
+                        <img src={gobmun} alt="Gobierno Digital" className="w-full h-auto rounded-lg shadow-md" />
                     </div>
                     <div className="lg:w-1/2">
                         <h2 className="mb-6 text-3xl font-bold text-blue-700">Gobierno Digital en Bolivia</h2>
@@ -26,7 +27,7 @@ const GobLineaLayout = () => {
                 {/* Introducción */}
                 <section className="flex flex-col items-center p-8 mb-12 bg-white border border-gray-200 shadow-lg rounded-xl lg:flex-row">
                     <div className="mb-6 lg:w-1/2 lg:pr-8 lg:mb-0">
-                        <img src="https://via.placeholder.com/400x300" alt="Patentes Municipales" className="w-full h-auto rounded-lg shadow-md" />
+                        <img src={patentesmun} alt="Patentes Municipales" className="w-full h-auto rounded-lg shadow-md" />
                     </div>
                     <div className="lg:w-1/2">
                         <h2 className="mb-6 text-3xl font-bold text-blue-700">Patentes Municipales</h2>

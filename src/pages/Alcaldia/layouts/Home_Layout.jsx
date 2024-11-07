@@ -1,6 +1,6 @@
 import React from 'react';
 import Municipiomp4 from '../images/alcaldia/video_municipio.mp4';
-
+import image3 from '../images/alcaldia/alcaldia.png'
 const Homelayout = () => {
   return (
     <div className="font-sans bg-white">
@@ -29,7 +29,7 @@ const Homelayout = () => {
             {[
               "https://anteriorportal.erbol.com.bo/sites/default/files/img_noticias/centro_de_salud.jpg",
               "http://www.amdeco.org.bo/enlacemunicipios/allMunicipios/data1/images/shinaota3.jpg",
-              "https://via.placeholder.com/400x300?text=Imagen+3",
+              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb0LJ6RWg6WgaoHVVmacjzJYfmm-sLzW8I_Q&s",
             ].map((src, index) => (
               <div key={index} className="flex-none w-full md:w-1/2 lg:w-1/3 p-2">
                 <img src={src} alt={`Imagen ${index + 1}`} className="object-cover w-full h-auto rounded-lg shadow-md" />

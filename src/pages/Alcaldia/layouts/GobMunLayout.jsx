@@ -7,6 +7,11 @@
 import React from 'react';
 //import './GobMunLayout.css'; // Para los estilos personalizados
 import alcaldeImg from '../images/alcaldia/luchito.png'
+import jefefinazas from '../images/alcaldia/Adolfo Aldonate Direcroe Administrativa Financiera.jpg'
+import jeferecursos from '../images/alcaldia/Sr. Walter Mencia Vidal- RESP. DE RECURSOS HUMANOS.jpg'
+import catastro from '../images/alcaldia/Arq. Freddy Balderrama DIR. DE CATASTRO.jpg'
+import urbanismo  from '../images/alcaldia/UBANISMO.jpg'
+import deporte from '../images/alcaldia/Deporte 1.jpg'
 const GobMunLayout = () => {
   return (
     <section className="relative overflow-hidden">
@@ -47,7 +52,7 @@ const GobMunLayout = () => {
             <div className="max-w-md p-6 mx-auto bg-white rounded-lg shadow-lg hover-shadow">
               <div className="flex flex-col items-center text-center">
                 <img src={alcaldeImg} alt="Alcalde" className="object-cover w-40 h-40 mb-4 rounded-full" />
-                <h2 className="mb-2 text-3xl font-semibold">Juan Pérez</h2>
+                <h2 className="mb-2 text-3xl font-semibold">Luis </h2>
                 <p className="mb-4 text-xl text-gray-700">Alcalde</p>
                 <p className="mb-4 text-gray-600">
                   Luis Arce Clemente es el actual Alcalde de nuestra ciudad, con una amplia experiencia en la gestión pública y el desarrollo comunitario. 
@@ -75,24 +80,24 @@ const GobMunLayout = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {/* Autoridad 1 */}
             <div className="p-4 rounded-lg shadow-md bg-gray-50 hover-shadow hover:bg-blue-500 hover:text-white transition-colors duration-300">
-              <img src="https://via.placeholder.com/100" alt="Autoridad 1" className="w-24 h-24 mx-auto mb-4 rounded-full" />
-              <h3 className="mb-2 text-xl font-semibold text-center">Juan Pérez</h3>
-              <p className="mb-4 text-center text-gray-600">Alcalde</p>
-              <p className="text-center text-gray-500">Juan Pérez es el actual Alcalde, con una vasta experiencia en la gestión pública y un fuerte compromiso con el desarrollo urbano y social.</p>
+              <img src={jefefinazas} alt="Jefe de Finanzas" className="w-24 h-24 mx-auto mb-4 rounded-full" />
+              <h3 className="mb-2 text-xl font-semibold text-center">Adolfo Aldonate</h3>
+              <p className="mb-4 text-center text-gray-600">Jefe de Direccion de Finanzas</p>
+              <p className="text-center text-gray-500">El Jefe de Finanzas de la alcaldía gestiona los recursos financieros del municipio, supervisa ingresos y gastos, y asegura el uso eficiente de los fondos públicos conforme a normativas fiscales.</p>
             </div>
             {/* Autoridad 2 */}
             <div className="p-4 rounded-lg shadow-md bg-gray-50 hover-shadow hover:bg-green-500 hover:text-white transition-colors duration-300">
-              <img src="https://via.placeholder.com/100" alt="Autoridad 2" className="w-24 h-24 mx-auto mb-4 rounded-full" />
-              <h3 className="mb-2 text-xl font-semibold text-center">María Gómez</h3>
-              <p className="mb-4 text-center text-gray-600">Directora de Servicios Públicos</p>
-              <p className="text-center text-gray-500">María Gómez supervisa la provisión de servicios básicos esenciales para la comunidad, incluyendo agua, electricidad y recolección de basura.</p>
+              <img src={jeferecursos} alt="Autoridad 2" className="w-24 h-24 mx-auto mb-4 rounded-full" />
+              <h3 className="mb-2 text-xl font-semibold text-center">Sr Walter Mencia Vidal</h3>
+              <p className="mb-4 text-center text-gray-600">Director de recursos Humanos</p>
+              <p className="text-center text-gray-500">Supervisa la gestión del personal municipal, liderando procesos de selección, capacitación, y desarrollo laboral para promover un entorno de trabajo eficiente y motivado.</p>
             </div>
             {/* Autoridad 3 */}
             <div className="p-4 rounded-lg shadow-md bg-gray-50 hover-shadow hover:bg-blue-600 hover:text-white transition-colors duration-300">
-              <img src="https://via.placeholder.com/100" alt="Autoridad 3" className="w-24 h-24 mx-auto mb-4 rounded-full" />
-              <h3 className="mb-2 text-xl font-semibold text-center">Carlos Martínez</h3>
-              <p className="mb-4 text-center text-gray-600">Secretario de Cultura</p>
-              <p className="text-center text-gray-500">Carlos Martínez coordina todas las actividades culturales y deportivas, promoviendo eventos que enriquecen la vida comunitaria.</p>
+              <img src={catastro} alt="Autoridad 3" className="w-24 h-24 mx-auto mb-4 rounded-full" />
+              <h3 className="mb-2 text-xl font-semibold text-center">Arq. Freddy Balderrama </h3>
+              <p className="mb-4 text-center text-gray-600">Director de Catastro</p>
+              <p className="text-center text-gray-500">Administra y actualiza el registro de bienes inmuebles del municipio, asegurando la precisión de datos catastrales y facilitando procesos de valoración, tributación y planificación urbana.</p>
             </div>
             {/* Agrega más autoridades aquí */}
           </div>
@@ -104,7 +109,7 @@ const GobMunLayout = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Área 1 */}
             <div className="flex items-start mb-6 space-x-4 hover:bg-green-50 transition-colors duration-300">
-              <img src="https://via.placeholder.com/150" alt="Área de Urbanismo" className="object-cover w-32 h-32 rounded-lg" />
+              <img src={urbanismo} alt="Área de Urbanismo" className="object-cover w-32 h-32 rounded-lg" />
               <div>
                 <h3 className="mb-2 text-lg font-semibold">Área de Urbanismo</h3>
                 <p className="text-gray-700">Responsable de la planificación y desarrollo urbano. Gestiona la construcción y mantenimiento de infraestructuras, así como la regulación de proyectos urbanísticos.</p>
@@ -112,13 +117,13 @@ const GobMunLayout = () => {
             </div>
             {/* Área 2 */}
             <div className="flex items-start mb-6 space-x-4 hover:bg-blue-50 transition-colors duration-300">
-              <img src="https://via.placeholder.com/150" alt="Área de Servicios Públicos" className="object-cover w-32 h-32 rounded-lg" />
+              <img src={deporte} alt="Área de Servicios Públicos" className="object-cover w-32 h-32 rounded-lg" />
               <div>
-                <h3 className="mb-2 text-lg font-semibold">Área de Servicios Públicos</h3>
-                <p className="text-gray-700">Encargada de la provisión de servicios básicos como agua, electricidad, recolección de basura y mantenimiento de espacios públicos.</p>
+                <h3 className="mb-2 text-lg font-semibold">Área de Deportes</h3>
+                <p className="text-gray-700">Coordina programas y actividades deportivas municipales, promoviendo la participación ciudadana, el desarrollo del talento deportivo y el bienestar físico de la comunidad.</p>
               </div>
             </div>
-            {/* Área 3 */}
+            {/* Área 3 
             <div className="flex items-start mb-6 space-x-4 hover:bg-green-50 transition-colors duration-300">
               <img src="https://via.placeholder.com/150" alt="Área de Cultura y Deporte" className="object-cover w-32 h-32 rounded-lg" />
               <div>
@@ -126,7 +131,7 @@ const GobMunLayout = () => {
                 <p className="text-gray-700">Promueve eventos culturales y deportivos, así como actividades recreativas que fomentan la participación y el bienestar de la comunidad.</p>
               </div>
             </div>
-            {/* Área 4 */}
+            {/* Área 4 
             <div className="flex items-start mb-6 space-x-4 hover:bg-blue-50 transition-colors duration-300">
               <img src="https://via.placeholder.com/150" alt="Área de Educación" className="object-cover w-32 h-32 rounded-lg" />
               <div>

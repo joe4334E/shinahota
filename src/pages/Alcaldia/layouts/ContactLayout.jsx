@@ -31,9 +31,9 @@ const ContactLayout = () => (
         <section className="p-6 bg-white border border-gray-200 rounded-lg shadow-lg">
           <h2 className="mb-4 text-xl font-semibold text-green-600">Información de Contacto</h2>
           <ul className="space-y-2">
-            <li><strong>Dirección:</strong> Calle Ejemplo 123, Shinahota</li>
-            <li><strong>Teléfono:</strong> +123 456 7890</li>
-            <li><strong>Correo Electrónico:</strong> contacto@shinahota.gob.bo</li>
+            <li><strong>Dirección:</strong> Plaza Principal 4 de Junio Acera Oeste</li>
+            <li><strong>Teléfono:</strong> 44136409</li>
+            <li><strong>Correo Electrónico:</strong>munshinahota@hotmail.com</li>
           </ul>
         </section>
 
